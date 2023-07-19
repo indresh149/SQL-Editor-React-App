@@ -1,70 +1,86 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![firstpage](https://github.com/indresh149/challengetask/assets/76736055/1832a228-f131-4a3b-9c8c-f94baa1fd7d4)
+![second page](https://github.com/indresh149/challengetask/assets/76736055/d76f42f7-82ea-4f44-a1e5-8b492669918c)
 
-## Available Scripts
+<br>
+<br>
+<br>
 
-In the project directory, you can run:
 
-### `npm start`
+<h1 align="center">SQL Editor - Made with React</h1>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## About
+An application created using **ReactJS** and **CSS**.          
+**You can run SQL queries here.**    
 
-### `npm test`
+The application contains an SQL editor where you can write your query. There are 2 buttons **Clear** and **Run**. You can click on RUN button to run the query. Once RUN is pressed, TableName is searched in the given query and is tallied with the TABLE_NAMES, which is an array of tables names supported by the application. If the table name queried by the user is present in the TABLE_NAMES array, API request is made to fetch data from a URL. Then the data and query is processed with the help of **alasql**. It returns us the data in a JSON format. Then we display the data in form of a table.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The application contains some more components - 
+- **DropDown** by using which we can select queries according to our choice which will be run in the editor.
+- **Table Names section** which contains the names of the tables supported so user can easily make the queries. SEARCH BAR provided
+- **History Panel** where all the queries RUN are stored with there status. SEARCH BAR provided
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployement URL
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application is hosted on Vercel.            
+<h3><a href="[https://sql-editor-react.vercel.app/sql-editor](https://challengetask.vercel.app/sql-editor)">SQL-Editor</a></h3>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## SOME Queries you can try to run
+1. ```SELECT * FROM Customers```
+2. ```SELECT * FROM Categories```
+3. ```SELECT * FROM Employee_territories;```
+4. ```SELECT * FROM Employees;```
+5. ```SELECT * FROM Orders;```
+6. ```SELECT * FROM Products;```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+##  Tech Stack
+1. ReactJS
+2. CSS
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Major Dependencies
+- @uiw/react-codemirror ```6.5.2``` - Editor to write query
+- alasql ```4.1.2``` - To run SQL query on a .csv file and return result in form of JSON object
+- react-hot-toast ```2.4.1``` - For notifications such as success and error
+- react-loader-spinner ```4.0.0``` - Loader for the table
+- react-table ```7.8.0``` - To create result table
+- axios ```1.4.0``` - for http request
+  
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br>
 
-### Analyzing the Bundle Size
+## 🙄 Page load time
+I used Lighthouse Chrome DevTools to check application performace.
+![image](https://user-images.githubusercontent.com/54144759/175161784-aa1a49b2-cddf-480d-a884-35efe602b363.png)
+![image](https://user-images.githubusercontent.com/54144759/175161331-64ed2b8f-92ba-4e6f-98e4-accafe142ed8.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**The performance metric varies between 96-98**     
+Others remain constant
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<br>
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🚶‍♀️🚶‍♀️ Steps taken to optimize
 
-### Deployment
+- Used performace optimization hooks - **memo, useMemo and useCallback** to prevent unnecessary re-rendering of components and increase performance.     
+- Used code splitting for the code-editor component. Using code splitting for all components lead to decrease in performance, so applied to only editor.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+<br>      
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<h3 align="center">THANK YOU!!!</h3>
