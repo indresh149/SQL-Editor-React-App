@@ -64,6 +64,7 @@ The application is hosted on Vercel.
 
 ## Page load time
 I used Lighthouse Chrome DevTools to check application performace.
+
 ![performance view new](https://github.com/indresh149/challengetask/assets/76736055/c49cb7c9-19ef-4c49-affc-61754bacc756)
 ![metrics view new](https://github.com/indresh149/challengetask/assets/76736055/07dd4890-ae7b-4911-b8af-4479b96f46bb)
 
