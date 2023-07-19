@@ -1,0 +1,42 @@
+.editor {
+	 height: 100%;
+	 width: 100%;
+}
+ .editor .cm-theme-light {
+	 height: 80%;
+}
+ .editor .cm-theme-light .cm-editor {
+	 height: 100%;
+}
+ .editor .cm-theme-light .cm-editor .cm-gutters {
+	 background-color: #96a9cf;
+}
+ .editor .buttons {
+	 text-align: right;
+	 margin-top: 10px;
+}
+ .editor .buttons .button {
+	 cursor: pointer;
+	 max-height: 40px;
+	 height: 100%;
+	 width: 80px;
+	 font-size: 14px;
+	 padding: 6px 15px;
+	 border-radius: 6px;
+	 border: none;
+	 margin-left: 10px;
+}
+ .editor .buttons .button.run {
+	 background-color: #008000;
+	 color: white;
+}
+ .editor .buttons .button.run:hover {
+	 background-color: #006400;
+}
+ .editor .buttons .button.clear {
+	 background-color: #d1d5db;
+}
+ .editor .buttons .button.clear:hover {
+	 background-color: #9ca3af;
+}
+ 

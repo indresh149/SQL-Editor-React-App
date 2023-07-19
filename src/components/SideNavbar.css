@@ -1,0 +1,65 @@
+.side-navbar {
+	 width: 18%;
+	 max-width: 500px;
+	 text-align: center;
+	 position: relative;
+}
+ .side-navbar .app-logo {
+	 max-height: 60px;
+	 max-width: 120px;
+	 margin: 5px auto;
+	 width: 90%;
+}
+ .side-navbar .h-line {
+	 border: 0.5px solid #d1d5db;
+	 margin: 0;
+}
+ .side-navbar .nav-links {
+	 margin: 80px auto;
+}
+ .side-navbar .nav-links .link-items {
+	 list-style: none;
+	 padding: 0 10px;
+}
+ .side-navbar .nav-links .link-items .link-item {
+	 border-radius: 10px;
+	 padding: 12px 20px;
+	 margin: 15px auto;
+	 text-align: left;
+	 cursor: pointer;
+	 font-weight: 600;
+	 font-size: 16px;
+	 color: #2f2e41;
+}
+ .side-navbar .nav-links .link-items .link-item:hover {
+	 background-color: #e0f2fe;
+}
+ .side-navbar .nav-links .link-items .link-item.active {
+	 background: #0ea5e9;
+	 color: white;
+	 font-weight: bold;
+}
+ .side-navbar .logout {
+	 background-color: #f3f4f6;
+	 border-radius: 10px;
+	 padding: 12px 20px;
+	 margin: 15px 10px;
+	 font-weight: 600;
+	 display: flex;
+	 place-items: center;
+	 justify-content: center;
+	 position: absolute;
+	 bottom: 20px;
+	 width: -webkit-fill-available;
+	 cursor: pointer;
+}
+ .side-navbar .logout:hover {
+	 background-color: #e5e7eb;
+}
+ .side-navbar .logout .icon {
+	 height: 20px;
+	 width: 20px;
+	 display: inline-block;
+	 margin-right: 10px;
+}
+ 
