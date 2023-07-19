@@ -39,6 +39,11 @@ The application is hosted on Vercel.
 4. ```SELECT * FROM Employees;```
 5. ```SELECT * FROM Orders;```
 6. ```SELECT * FROM Products;```
+7. ```SELECT * FROM order_details;```
+8. ```SELECT * from regions;```
+9. ```SELECT * from shippers;```
+10. ```SELECT * from supplies;```
+11. ```SELECT * from territories;```
 
 
 <br>
