@@ -76,7 +76,15 @@ I used Lighthouse Chrome DevTools to check application performace.
 - Used performace optimization hooks - **memo, useMemo and useCallback** to prevent unnecessary re-rendering of components and increase performance.     
 - Used code splitting for the code-editor component. Using code splitting for all components lead to decrease in performance, so applied to only editor.
 
+other otimizations which can be implemented are:
+1. Memoization: I utilized React's memoization techniques to prevent unnecessary re-renders of components when the data or state hasn't changed.
 
+2. Lazy Loading: For images or other assets, I applied lazy loading techniques to load them only when they are visible on the user's screen, reducing initial load times.
+
+3. Virtualization: To handle rendering large amounts of rows efficiently, I employed virtualization techniques such as windowing or pagination, ensuring that the browser doesn't become unresponsive due to excessive data rendering.
+
+4. Caching: Although this application doesn't interact with a backend, I implemented simple caching mechanisms to store previously executed queries' results, reducing the need for re-rendering the same data.
+   
 <br>   
 
 **Note** : I have rendered a large amount of rows in tables section of  application without breaking the browser, or without crashing it.
