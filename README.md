@@ -77,7 +77,9 @@ I used Lighthouse Chrome DevTools to check application performace.
 - Used code splitting for the code-editor component. Using code splitting for all components lead to decrease in performance, so applied to only editor.
 
 
-<br>      
+<br>   
+
+**Note** : I have rendered a large amount of rows in tables section of  application without breaking the browser, or without crashing it.
 
 
 <h3 align="center">THANK YOU!!!</h3>
