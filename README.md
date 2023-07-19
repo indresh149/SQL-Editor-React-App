@@ -62,19 +62,16 @@ The application is hosted on Vercel.
 
 <br>
 
-## 🙄 Page load time
+## Page load time
 I used Lighthouse Chrome DevTools to check application performace.
-![image](https://user-images.githubusercontent.com/54144759/175161784-aa1a49b2-cddf-480d-a884-35efe602b363.png)
-![image](https://user-images.githubusercontent.com/54144759/175161331-64ed2b8f-92ba-4e6f-98e4-accafe142ed8.png)
-
-**The performance metric varies between 96-98**     
-Others remain constant
+![performance view new](https://github.com/indresh149/challengetask/assets/76736055/c49cb7c9-19ef-4c49-affc-61754bacc756)
+![metrics view new](https://github.com/indresh149/challengetask/assets/76736055/07dd4890-ae7b-4911-b8af-4479b96f46bb)
 
 
 <br>
 
 
-## 🚶‍♀️🚶‍♀️ Steps taken to optimize
+## Steps taken to optimize
 
 - Used performace optimization hooks - **memo, useMemo and useCallback** to prevent unnecessary re-rendering of components and increase performance.     
 - Used code splitting for the code-editor component. Using code splitting for all components lead to decrease in performance, so applied to only editor.
