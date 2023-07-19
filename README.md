@@ -27,7 +27,7 @@ The application contains some more components -
 ## Deployement URL
 
 The application is hosted on Vercel.            
-<h3><a href="[https://sql-editor-react.vercel.app/sql-editor](https://challengetask.vercel.app/sql-editor)">SQL-Editor</a></h3>
+<h3><a href="https://sql-editor-react.vercel.app/sql-editor">SQL-Editor</a></h3>
 
 <br>
 
